@@ -1499,21 +1499,6 @@ li {
     width: 95%;
   }
 
-  #h-nav__list__first {
-    position: absolute;
-    z-index: 999;
-    top: 25%;
-    left: 20%;
-    transform: translateY(-25%) translateX(-20%);
-  }
-
-  #h-nav__list__second {
-    position: absolute;
-    z-index: 999;
-    top: 75%;
-    left: 60%;
-    transform: translateY(-75%) translateX(-10%);
-  }
 
   .__triangle-one {
     border-width: 15px 30px 0 30px;
@@ -1743,6 +1728,22 @@ li {
 @media screen and (max-width: 480px) {
   #h-nav {
     width: 100%;
+  }
+
+  #h-nav__list__first {
+    position: absolute;
+    z-index: 999;
+    top: 25%;
+    left: 20%;
+    transform: translateY(-25%) translateX(-20%);
+  }
+
+  #h-nav__list__second {
+    position: absolute;
+    z-index: 999;
+    top: 75%;
+    left: 60%;
+    transform: translateY(-75%) translateX(-10%);
   }
 
   .top-wrap__pc {
